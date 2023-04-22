@@ -1,0 +1,81 @@
+Description,variable,distribution,lower,upper,label
+Precipitation in month 1 in mm,prec_1,posnorm,45,135,Precipitation in January in mm
+Precipitation in month 2 in mm,prec_2,posnorm,31,93,Precipitation in February in mm
+Precipitation in month 3 in mm,prec_3,posnorm,25,75,Precipitation in March in mm
+Precipitation in month 4 in mm,prec_4,posnorm,12.5,37.5,Precipitation in April in mm
+Precipitation in month 5 in mm,prec_5,posnorm,5,15,Precipitation in May in mm
+Precipitation in month 6 in mm,prec_6,posnorm,1,3,Precipitation in June in mm
+Precipitation in month 7 in mm,prec_7,posnorm,2,6,Precipitation in July in mm
+Precipitation in month 8 in mm,prec_8,posnorm,3,9,Precipitation in August in mm
+Precipitation in month 9 in mm,prec_9,posnorm,7,21,Precipitation in September in mm
+Precipitation in month 10 in mm,prec_10,posnorm,12.5,37.5,Precipitation in October in mm
+Precipitation in month 11 in mm,prec_11,posnorm,35,105,Precipitation in November in mm
+Precipitation in month 12 in mm,prec_12,posnorm,45,135,Precipitation in December in mm
+,,,,,
+Reference evapotranspiration (ET0) mm/per ha month 1 (Hargreaves Samani equation with nasapower package),ET0_1,posnorm,144,240,Ref. evapotranspiration in January
+Reference evapotranspiration (ET0) mm/per ha month 2,ET0_2,posnorm,114.75,191.25,Ref. evapotranspiration in February
+Reference evapotranspiration (ET0) mm/per ha month 3,ET0_3,posnorm,96,160,Ref. evapotranspiration in March
+Reference evapotranspiration (ET0) mm/per ha month 4,ET0_4,posnorm,67.5,112.5,Ref. evapotranspiration in April
+Reference evapotranspiration (ET0) mm/per ha month 5,ET0_5,posnorm,52.5,87.5,Ref. evapotranspiration in May
+Reference evapotranspiration (ET0) mm/per ha month 6,ET0_6,posnorm,32.25,53.75,Ref. evapotranspiration in June
+Reference evapotranspiration (ET0) mm/per ha month 7,ET0_7,posnorm,40.5,67.5,Ref. evapotranspiration in July
+Reference evapotranspiration (ET0) mm/per ha month 8,ET0_8,posnorm,52.5,87.5,Ref. evapotranspiration in August
+Reference evapotranspiration (ET0) mm/per ha month 9,ET0_9,posnorm,71.25,118.75,Ref. evapotranspiration in September
+Reference evapotranspiration (ET0) mm/per ha month 10,ET0_10,posnorm,99.75,166.25,Ref. evapotranspiration in October
+Reference evapotranspiration (ET0) mm/per ha month 11,ET0_11,posnorm,126,210,Ref. evapotranspiration in November
+Reference evapotranspiration (ET0) mm/per ha month 12,ET0_12,posnorm,145.5,242.5,Ref. evapotranspiration in December
+,,,,,
+Crop coefficient in month 1,kc_1,posnorm,0.9,1,Crop coefficient in January
+Crop coefficient in month 2,kc_2,posnorm,0.9,1,Crop coefficient in February
+Crop coefficient in month 3,kc_3,posnorm,0.9,1,Crop coefficient in March
+Crop coefficient in month 4,kc_4,posnorm,0.9,1,Crop coefficient in April
+Crop coefficient in month 5,kc_5,posnorm,0.9,1,Crop coefficient in May
+Crop coefficient in month 6,kc_6,posnorm,0.9,1,Crop coefficient in June
+Crop coefficient in month 7,kc_7,posnorm,0.9,1,Crop coefficient in July
+Crop coefficient in month 8,kc_8,posnorm,0.9,1,Crop coefficient in August
+Crop coefficient in month 9,kc_9,posnorm,0.9,1,Crop coefficient in September
+Crop coefficient in month 10,kc_10,posnorm,0.9,1,Crop coefficient in October
+Crop coefficient in month 11,kc_11,posnorm,0.9,1,Crop coefficient in November
+Crop coefficient in month 12,kc_12,posnorm,0.9,1,Crop coefficient in December
+,,,,,
+Effective rainfall - minimum threshold,effprec_low,posnorm,5,10,Effective rainfall - minimum threshold
+Effective rainfall - maximum threshold,effprec_high,posnorm,90,200,Effective rainfall - maximum threshold
+,,,,,
+Efficiency of water pumps,effi_pump,tnorm_0_1,0.7,0.9,Efficiency of the water pumps
+Efficiency of irrigation scheduling and allocation,effi_sched,tnorm_0_1,0.6,0.9,Efficiency of irrigation scheduling
+"Coefficient of variation, ratio of the standard deviation to the mean (a measure of relative variability).",var_CV,posnorm,5,20,var_CV
+,,,,,
+Total irrigable area,available_area,posnorm,100,300,Available area
+Share of land that is not used because of socio-political obstacles,unused_sociopolit,tnorm_0_1,0.2,0.4,Share of unused lands
+Number of subsistence households,n_subsistence_farmers,posnorm,30,200,Number of subsistence farmers
+Farm size per subsistence households,necessary_farm_size_per_household,posnorm,1.5,2.5,Needed farm size per household
+,,,,,
+eflow in month 1 in m3 / month,eflow_1,posnorm,1658637.363,2487956.044,e-flow in January in m3 / month
+eflow in month 2 in m3 / month,eflow_2,posnorm,1953364.396,2930046.593,e-flow in February in m3 / month
+eflow in month 3,eflow_3,posnorm,2172764.835,3259147.253,e-flow in March in m3 / month
+eflow in month 4,eflow_4,posnorm,5094152.712,7641229.068,e-flow in April in m3 / month
+eflow in month 5,eflow_5,posnorm,12093593.23,18140389.85,e-flow in May in m3 / month
+eflow in month 6,eflow_6,posnorm,4593467.281,6890200.922,e-flow in June in m3 / month
+eflow in month 7,eflow_7,posnorm,2895912.088,4343868.132,e-flow in July in m3 / month
+eflow in month 8,eflow_8,posnorm,2484366.678,3726550.018,e-flow in August in m3 / month
+eflow in month 9,eflow_9,posnorm,2173592.967,3260389.451,e-flow in September in m3 / month
+eflow in month 10,eflow_10,posnorm,2052485.785,3078728.678,e-flow in October in m3 / month
+eflow in month 11,eflow_11,posnorm,1670297.909,2505446.863,e-flow in November in m3 / month
+eflow in month 12,eflow_12,posnorm,1419171.868,2128757.802,e-flow in December in m3 / month
+,,,,,
+Minimum river flow that allows running the pumps (in m3/month),minimum_flow_to_operate_pumps,posnorm,50000,150000,Minimum flow required by pumps
+,,,,,
+river flow in month 1 (Taken from base flow MCM data from 1920 to 2010 (Letaba River at EWR site EWR4 (Letaba Ranch upstream Little Letaba confluence) )),river_flow_1,posnorm,3289641.29,14884566.58,River flow in January
+river flow in month 2,river_flow_2,posnorm,3552190.553,28211390.25,River flow in February
+river flow in month 3,river_flow_3,posnorm,3629341.054,24557111.18,River flow in March
+river flow in month 4,river_flow_4,posnorm,3593958.873,18063311.23,River flow in April
+river flow in month 5,river_flow_5,posnorm,3506617.703,11756278.83,River flow in May
+river flow in month 6,river_flow_6,posnorm,3448532.206,8821373.457,River flow in June
+river flow in month 7,river_flow_7,posnorm,3270609.319,7597819.594,River flow in July
+river flow in month 8,river_flow_8,posnorm,2770310.633,6595355.436,River flow in August
+river flow in month 9,river_flow_9,posnorm,2475234.522,5976080.247,River flow in September
+river flow in month 10,river_flow_10,posnorm,2195340.502,5425988.65,River flow in October
+river flow in month 11,river_flow_11,posnorm,2306113.102,6163707.613,River flow in November
+river flow in month 12,river_flow_12,posnorm,2699506.898,7293206.408,River flow in December
+,,,,,
+livestock water need per month,livestock_water_need,posnorm,300,2000,livestock_water_need
